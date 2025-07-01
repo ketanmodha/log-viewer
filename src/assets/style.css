@@ -341,6 +341,7 @@ mark {
   padding: 0.1875em;
   color: var(--tblr-highlight-color);
   background-color: var(--tblr-highlight-bg);
+  border-radius: 0.25rem;
 }
 sub,
 sup {
@@ -18575,12 +18576,12 @@ a.card-title:hover {
 }
 .card-table tr td:first-child,
 .card-table tr th:first-child {
-  padding-left: 1.25rem;
+  /* padding-left: 1.25rem; */
   border-left: 0;
 }
 .card-table tr td:last-child,
 .card-table tr th:last-child {
-  padding-right: 1.25rem;
+  /* padding-right: 1.25rem; */
   border-right: 0;
 }
 .card-table tbody tr:first-child,

@@ -1,211 +1,38 @@
 [
   {
-    "_id": "685e3b2114f287564c82b8d4",
-    "index": 0,
-    "guid": "d0a7d04c-7ed8-4d8a-899c-ad3ca8f9266b",
-    "isActive": false,
-    "balance": "$3,342.25",
-    "picture": "http://placehold.it/32x32",
-    "age": 33,
-    "eyeColor": "brown",
-    "name": "Farmer French",
-    "gender": "male",
-    "company": "ZENTHALL",
-    "email": "farmerfrench@zenthall.com",
-    "phone": "+1 (862) 567-3921",
-    "address": "167 Coffey Street, Seymour, Nebraska, 6744",
-    "about": "Ipsum exercitation tempor exercitation laborum deserunt consectetur consectetur labore anim cupidatat. Labore ut quis duis cupidatat ullamco pariatur consequat. Ut et adipisicing ea duis officia non elit consectetur sunt.\r\n",
-    "registered": "2024-05-08T03:59:35 -06:-30",
-    "latitude": -32.604924,
-    "longitude": 12.672868,
-    "tags": ["quis", "ut", "Lorem", "id", "dolor", "sint", "ea"],
-    "friends": [
+    "glossary": [
       {
-        "id": 0,
-        "name": "Elba Holloway"
-      },
-      {
-        "id": 1,
-        "name": "Fitzpatrick Tate"
-      },
-      {
-        "id": 2,
-        "name": "Barbra Elliott"
+        "title": "example glossary",
+        "GlossDiv": [
+          {
+            "title": "S",
+            "GlossList": [
+              {
+                "GlossEntry": [
+                  {
+                    "ID": "SGML",
+                    "SortAs": "SGML",
+                    "GlossTerm": "Standard Generalized Markup Language",
+                    "Acronym": "SGML",
+                    "Abbrev": "ISO 8879:1986",
+                    "GlossDef": [
+                      {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+                        "GlossSeeAlso": ["GML", "XML"]
+                      },
+                      {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+                        "GlossSeeAlso": ["GML", "XML"]
+                      }
+                    ],
+                    "GlossSee": "markup"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
-    ],
-    "greeting": "Hello, Farmer French! You have 5 unread messages.",
-    "favoriteFruit": "apple"
-  },
-  {
-    "_id": "685e3b213f4581a6c6dbdeb1",
-    "index": 1,
-    "guid": "be4ebb71-8466-4b06-8443-5e53ab808040",
-    "isActive": true,
-    "balance": "$1,897.02",
-    "picture": "http://placehold.it/32x32",
-    "age": 22,
-    "eyeColor": "brown",
-    "name": "Estrada Little",
-    "gender": "male",
-    "company": "ORBALIX",
-    "email": "estradalittle@orbalix.com",
-    "phone": "+1 (936) 430-2981",
-    "address": "393 Prospect Street, Klondike, California, 8285",
-    "about": "Adipisicing cillum esse est nisi deserunt veniam in ipsum est. Occaecat eiusmod dolor eu magna aute nostrud aute elit. Deserunt irure labore ullamco laborum sit ad et ea do ad voluptate amet amet. Commodo non ullamco mollit aliqua voluptate ex laboris reprehenderit ex. Enim occaecat pariatur occaecat consectetur irure pariatur. Sunt est eiusmod veniam occaecat Lorem.\r\n",
-    "registered": "2020-08-03T01:46:42 -06:-30",
-    "latitude": 37.917091,
-    "longitude": 91.938954,
-    "tags": [
-      "dolor",
-      "tempor",
-      "laborum",
-      "et",
-      "exercitation",
-      "exercitation",
-      "sunt"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Gretchen Alford"
-      },
-      {
-        "id": 1,
-        "name": "Glenda Floyd"
-      },
-      {
-        "id": 2,
-        "name": "Staci Strickland"
-      }
-    ],
-    "greeting": "Hello, Estrada Little! You have 7 unread messages.",
-    "favoriteFruit": "banana"
-  },
-  {
-    "_id": "685e3b21fa4e6b961ba41466",
-    "index": 2,
-    "guid": "46afe40f-2ef8-41ca-8f0a-7dff56f3b63c",
-    "isActive": false,
-    "balance": "$3,443.37",
-    "picture": "http://placehold.it/32x32",
-    "age": 37,
-    "eyeColor": "brown",
-    "name": "Marsh Stewart",
-    "gender": "male",
-    "company": "COMVEYOR",
-    "email": "marshstewart@comveyor.com",
-    "phone": "+1 (817) 591-2341",
-    "address": "319 Clove Road, Lopezo, Minnesota, 4559",
-    "about": "Commodo officia culpa eu fugiat et dolor exercitation. Voluptate commodo sint officia occaecat nulla nulla sunt mollit ullamco qui in minim. Do fugiat incididunt enim occaecat deserunt qui incididunt et exercitation duis.\r\n",
-    "registered": "2019-11-15T12:55:40 -06:-30",
-    "latitude": -75.270256,
-    "longitude": 144.29308,
-    "tags": ["qui", "officia", "est", "voluptate", "est", "dolore", "ut"],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Ginger Oneal"
-      },
-      {
-        "id": 1,
-        "name": "Mildred Campbell"
-      },
-      {
-        "id": 2,
-        "name": "Rivers Mayo"
-      }
-    ],
-    "greeting": "Hello, Marsh Stewart! You have 2 unread messages.",
-    "favoriteFruit": "strawberry"
-  },
-  {
-    "_id": "685e3b21604cc4f2cbca80bc",
-    "index": 3,
-    "guid": "8413dff0-dd43-4d37-b0af-175246cef3bd",
-    "isActive": true,
-    "balance": "$2,687.32",
-    "picture": "http://placehold.it/32x32",
-    "age": 36,
-    "eyeColor": "brown",
-    "name": "Lavonne Chen",
-    "gender": "female",
-    "company": "ACUSAGE",
-    "email": "lavonnechen@acusage.com",
-    "phone": "+1 (995) 462-2744",
-    "address": "232 Osborn Street, Aurora, Wyoming, 356",
-    "about": "Veniam ullamco deserunt dolor nostrud aliqua Lorem excepteur ipsum do dolore commodo occaecat nulla veniam. Ad magna et magna ad exercitation ea. Cillum irure laborum exercitation duis. Ipsum reprehenderit ut commodo nulla adipisicing adipisicing est eu proident laborum amet.\r\n",
-    "registered": "2016-05-14T03:45:46 -06:-30",
-    "latitude": -64.701212,
-    "longitude": -107.109441,
-    "tags": [
-      "aliqua",
-      "laborum",
-      "exercitation",
-      "cillum",
-      "proident",
-      "exercitation",
-      "voluptate"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "White Noel"
-      },
-      {
-        "id": 1,
-        "name": "Luella Caldwell"
-      },
-      {
-        "id": 2,
-        "name": "Maynard Stevens"
-      }
-    ],
-    "greeting": "Hello, Lavonne Chen! You have 3 unread messages.",
-    "favoriteFruit": "strawberry"
-  },
-  {
-    "_id": "685e3b21097494fa583e8bd4",
-    "index": 4,
-    "guid": "c30ea0be-ca02-4959-bb57-38989344cb06",
-    "isActive": false,
-    "balance": "$2,149.42",
-    "picture": "http://placehold.it/32x32",
-    "age": 26,
-    "eyeColor": "blue",
-    "name": "Marie Clemons",
-    "gender": "female",
-    "company": "SIGNITY",
-    "email": "marieclemons@signity.com",
-    "phone": "+1 (856) 553-3381",
-    "address": "268 Manhattan Avenue, Cowiche, South Dakota, 2160",
-    "about": "Id enim deserunt tempor mollit aute nostrud laborum minim fugiat proident reprehenderit ullamco velit. Ea voluptate adipisicing mollit nostrud duis. Sint dolore enim qui elit anim.\r\n",
-    "registered": "2018-03-16T04:59:41 -06:-30",
-    "latitude": -4.526836,
-    "longitude": 90.418849,
-    "tags": [
-      "sint",
-      "tempor",
-      "exercitation",
-      "ea",
-      "reprehenderit",
-      "laboris",
-      "esse"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Yesenia Gibson"
-      },
-      {
-        "id": 1,
-        "name": "Wendi Callahan"
-      },
-      {
-        "id": 2,
-        "name": "Hunt Brown"
-      }
-    ],
-    "greeting": "Hello, Marie Clemons! You have 9 unread messages.",
-    "favoriteFruit": "apple"
+    ]
   }
 ]
