@@ -238,7 +238,8 @@ function App() {
                 placeholder="Search..."
                 value={filter}
                 onChange={(e) => {
-                  const val = e.target.value;
+                  const val = e.target.value.toLowerCase().trim();
+
                   setFilter(val);
                   debouncedSetFilter(val);
                   setPage(1);
