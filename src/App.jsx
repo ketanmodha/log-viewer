@@ -230,31 +230,51 @@ function App() {
     <Container fluid className="my-4">
       <Card className="dt-card-table overflow-y-auto">
         <Card.Header className="d-flex justify-content-between align-items-center">
-          <Form.Group style={{ minWidth: 400 }} className="mb-0">
-            <Form.Control
-              type="text"
-              placeholder="Search..."
-              value={filter}
-              onChange={(e) => {
-                const val = e.target.value;
-                setFilter(val);
-                debouncedSetFilter(val);
-                setPage(1);
-              }}
-            />
-          </Form.Group>
-          <Form.Group className="mb-0 position-relative">
-            <input
-              type="file"
-              accept=".json"
-              onChange={handleFileUpload}
-              id="upload-json"
-              style={{ display: "none" }}
-            />
-            <label htmlFor="upload-json" className="btn btn-outline-primary">
-              Upload JSON
-            </label>
-          </Form.Group>
+          <Card.Title as="h2">JSON Record Viewer</Card.Title>
+          <div className="card-actions d-flex gap-3">
+            <Form.Group style={{ minWidth: 400 }} className="mb-0">
+              <Form.Control
+                type="text"
+                placeholder="Search..."
+                value={filter}
+                onChange={(e) => {
+                  const val = e.target.value;
+                  setFilter(val);
+                  debouncedSetFilter(val);
+                  setPage(1);
+                }}
+              />
+            </Form.Group>
+            <Form.Group className="mb-0 position-relative">
+              <input
+                type="file"
+                accept=".json"
+                onChange={handleFileUpload}
+                id="upload-json"
+                style={{ display: "none" }}
+              />
+              <label htmlFor="upload-json" className="btn btn-outline-primary">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="icon"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  strokeWidth="2"
+                  stroke="currentColor"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />
+                  <path d="M7 9l5 -5l5 5" />
+                  <path d="M12 4l0 12" />
+                </svg>
+                Upload JSON
+              </label>
+            </Form.Group>
+          </div>
         </Card.Header>
 
         <div className="table-responsive" ref={tableRef}>
