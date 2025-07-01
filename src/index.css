@@ -1,0 +1,23 @@
+.dt-card-table {
+  height: calc(100vh - 2rem);
+}
+
+.cell-content {
+  max-width: 400px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cell-content div[data-long="true"] {
+  width:calc(400px - 1.5rem);
+  white-space: normal;
+  word-break: break-word;
+  text-overflow: unset;
+  overflow: visible;
+}
+
+.mt-n1{
+    margin-top: -1px;
+}
+
